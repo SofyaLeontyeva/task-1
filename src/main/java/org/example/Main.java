@@ -4,7 +4,11 @@ public class Task1
     //0.5 балла - если посчитаете в цикле
     //1 балл - если посчитаете рекурсией
     public static int fact(int n){
-        return n;
+        if (n == 1){
+            return 1;
+        }
+        else{
+            return n*fact(n-1);
     }
 
     //вывести таблицу умножения на экран - 1 балл
