@@ -141,6 +141,8 @@ public class Task1
         }
         return array;
     }
+    
+    
 
 
     //здесь можете тестировать свои решения
